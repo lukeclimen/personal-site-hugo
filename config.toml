@@ -2,3 +2,25 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "github-style"
+
+[params]
+  author = "Luke Climenhage"
+  description = "Biomedical Engineer turned full stack Software Developer!"
+  github = "lukeclimen"
+  linkedin = "lclimenh"
+  url = "https://lukeclimenhage.com"
+  keywords = "blog, personal site, resume, web dev"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "/images/logo.png"
+  avatar = "/images/headshot.jpg"
+  headerIcon = "/images/logo.png"
+  location = "Canada"
+  enableGitalk = false
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[services]
+  [services.googleAnalytics]
