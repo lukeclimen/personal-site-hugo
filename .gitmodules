@@ -1,3 +1,6 @@
 [submodule "github-style"]
 	path = github-style
 	url = git@github.com:lukeclimen/github-style.git
+[submodule "themes/github-style"]
+	path = themes/github-style
+	url = git@github.com:lukeclimen/github-style.git
